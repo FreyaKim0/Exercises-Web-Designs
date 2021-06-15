@@ -13,7 +13,7 @@
 * Website layout design
 * HTML and CSS layout implement
 
-![Real-Estate-Webpage](./screenShots/screenShot%20(3).PNG?raw=true | width=800)
+![Real-Estate-Webpage](./screenShots/screenShot%20(3).PNG?raw=true)
 
 ---------------------------------------------------------------------
 
