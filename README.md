@@ -4,7 +4,7 @@
 Highlights:
 * Real Estate Webpage Design and Code Implement
  
-![Real-Estate-Webpage](./screenShot (1).gif?raw=true)
+![Real-Estate-Webpage](./screenShot%20(1).gif?raw=true)
 
 Practice scope:
 * Radio,Checkbox,Combobox,Textbox,NotificationBox
