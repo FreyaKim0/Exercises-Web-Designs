@@ -7,7 +7,7 @@
  
 ![Real-Estate-Webpage](./screenShots/screenShot%20(1).gif?raw=true)
 
----------------------------------------------------------------------
+<br>
 
 **[Exercise 2]  Furniture Webpage:**
 * Website layout design
@@ -15,11 +15,11 @@
 
 ![Real-Estate-Webpage](./screenShots/screenShot%20(3).PNG?raw=true)
 
----------------------------------------------------------------------
+<br>
 
 **[Exercise ３]  School survey webpage:**
-* Website layout design
+* Website form design
 * HTML and CSS layout implement
-* School web survey from design code implement (with constraints) 
+* Javasciript form constraints 
 
-![Real-Estate-Webpage](./screenShot%20(2).gif?raw=true)
+![Real-Estate-Webpage](./screenShot%20(3).gif?raw=true)
