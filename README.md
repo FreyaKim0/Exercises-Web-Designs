@@ -2,23 +2,14 @@
 **This is a webpage to demostrate my school learning result of HTML, CSS and some Javascript**<br><br>
 
 Highlights:
-* Real Estate Webpage Design and Code Implement
+* Real Estate Webpage Design and Code implement 
  
 ![Real-Estate-Webpage](./screenShot%20(1).gif?raw=true)
 
-Practice scope:
-* Radio,Checkbox,Combobox,Textbox,NotificationBox
-* Responsive frame
-* Onclick event
----------------------------------------------------------------------------------
-**[Exercise 1] Library_Class_Exerise.py**<br><br>
-This is a library class. In this class:
-* End user may select name, residency, program, courses.
-* Reset and Exit buttons will perform their function.
-* Information box will open and display user inputs when Okay button is clicked. 
-* The window is responsive.
+* Commercial layout design and code implement
 
-Practice scope:
-* Class,Constructor,Attributes,Properties,Instances,Getter and Setter
-* Try Catch,Exception
-* Tuple,List and Dictionary
+![Real-Estate-Webpage](./screenShot%20(3).PNG?raw=true)
+
+* School web survey from design code implement (with constraints) 
+
+![Real-Estate-Webpage](./screenShot%20(2).gif?raw=true)
