@@ -1,13 +1,10 @@
-# Project-Real-Estate-Web-Design
+# Project-Web-Designs
+**This is a webpage to demostrate my school learning result of HTML, CSS and some Javascript**<br><br>
 
-**[Exercise 2] Tkinter_Gui_Exercise.py**<br><br>
-This is tkinter gui practice. In this program:
-* End user may select name, residency, program, courses.
-* Reset and Exit buttons will perform their function.
-* Information box will open and display user inputs when Okay button is clicked. 
-* The window is responsive.
+Highlights:
+* Real Estate Webpage Design and Code Implement
  
-![Tkinter_Gui_Exercise.py](./pictures/Tkinter_Gui_Exercise.py.png?raw=true)
+![Real-Estate-Webpage](./screenShot(1).png?raw=true)
 
 Practice scope:
 * Radio,Checkbox,Combobox,Textbox,NotificationBox
