@@ -7,11 +7,15 @@
  
 ![Real-Estate-Webpage](./screenShots/screenShot%20(1).gif?raw=true)
 
+---------------------------------------------------------------------
+
 **[Exercise 2]  Furniture Webpage:**
 * Website layout design
 * HTML and CSS layout implement
 
-![Real-Estate-Webpage](./screenShots/screenShot%20(3).PNG?raw=true)
+![Real-Estate-Webpage](./screenShots/screenShot%20(3).PNG?raw=true | width=800)
+
+---------------------------------------------------------------------
 
 **[Exercise ３]  School survey webpage:**
 * Website layout design
