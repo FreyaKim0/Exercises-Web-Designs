@@ -1,0 +1,148 @@
+﻿body {
+	background-color: #000000;
+}
+a {
+	color: #FFFFFF;
+}
+#title {
+	background-image: url('images/picture.jpg');
+	background-repeat: no-repeat;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 70px;
+	color: #FFFFFF;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-transform: uppercase;
+	padding:30px;
+}
+#logo {
+	width: 1060px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	
+}
+#copyright {
+	padding: 15px 60px 8px 60px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 940px;
+	background-color: #35363A;
+	font-size: small;
+	color: #FFFFFF;
+	font-family: arial, Helvetica, sans-serif;
+	text-transform: none;
+	text-align: right;
+	line-height: 30px;
+	border-spacing: 30px;
+	font-weight: lighter;
+}
+#TryTable {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	padding:30px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#tableWhole {
+	border-style: 0;
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000000;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: right;
+	border-width: 0px;
+}
+#link {
+	float: right;
+	width: 400px;
+	height: 90px;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: right;
+	vertical-align: middle;
+	line-height: 90px;
+	font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: large;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+#link a{
+	color: #333333;
+	font-weight: bold;
+	font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+}
+#link a:hover{
+	text-decoration: underline;
+}
+.yellowTitle {
+	color: #C5D83C;
+}
+.smallTitle {
+	font-family: georgia, "Times New Roman", Times, serif;
+	font-size: large;
+	text-transform: capitalize;
+	font-weight: bold;
+	line-height: 7px;
+}
+.tableRightLine {
+	text-align: left;
+}
+.align-left {
+	vertical-align: top;
+}
+.row1 {
+	background-color: #E5E5E5;
+}
+.center {
+	margin: auto;
+}
+.button {
+	padding: 10px 20px;
+	border: 3px solid #000000;
+	background-color: #000000;
+	
+	color: #ffffff;
+	font-size: 15px;
+	font-family: Arial;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	color: black;
+	text-decoration: underline;
+}
+.button:active {
+   top: 1px;
+   position: relative;
+}
+#errorID{
+    color:red;
+}
+.error{
+    color: red;
+    font-size: small;
+}
+.auto-style1 {
+	font-size: medium;
+	line-height: 1.2;
+	
+}
+.auto-style3 {
+	font-size: small;
+}
+.auto-style4 {
+	text-align: right;
+}

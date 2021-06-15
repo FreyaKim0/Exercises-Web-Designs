@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<title>Untitled 1</title>
+		<link href="exercise3Styles.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<!--div1-->
+		<div id="logo">
+			<div id="link" class="auto-style4">
+				<botton class="topLink">
+					<a href="https://www.centennialcollege.ca/" target="_blank">
+				<span class="auto-style3">Centennial College</span></a></botton>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<img alt="" height="100" src="images/logo_centennial.png" width="320" />
+		</div>
+
+		<!--div2-->
+		<div id="title" style="height: 330px">
+			<br />APPLY&nbsp;ONLINE
+			<span class="auto-style1"><br><br />
+				Ready to take the next step <br />
+				toware achieving your goals ?<br />
+				<span class="yellowTitle">Please fill out the application below <br />
+				we will contact you about the next
+			steps in your admissions process. </span>
+			</span>
+		</div>
+
+		<!--div3(table)-->
+		<div id="TryTable" class="auto-style4">
+			<form action="result.html">
+				<!--add result.html page-->
+				<table style="width: 80%" align="center">
+					<tr>
+						<td>*First name
+						</td>
+						<td style="width: 395px">*Last name
+					</tr>
+					<tr>
+						<td>
+							<input style="width: 300px" id="first_name_ID" name="first_name" size="15" type="text"
+								onkeyup="this.value=this.value.toUpperCase()" required="required" />
+							<div id="first_error" class="error"></div>
+						</td>
+						<td style="width: 395px">
+							<input style="width: 300px" id="last_name_ID" name="last_name" size="15" type="text"
+								onkeyup="this.value=this.value.toUpperCase()" required="required" />
+							<div id="last_error" class="error"></div>
+						</td>
+					</tr>
+					<tr>
+						<td><br>*Gender</td>
+						<td style="width: 395px"><br>*Street Address</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="Female_ID" name="gender" type="radio" value="Female" required="required" />Female
+							<input id="male_ID" name="gender" type="radio" value="male" />Male
+						<td style="width: 395px">
+							<input style="width: 300px" id="address_ID" name="street_addesss" type="text"
+								required="required" style="width: 300px" />
+						</td>
+					</tr>
+					<tr>
+						<td><br>*Country</td>
+						<td style="width: 395px"><br>*Postal Code</td>
+					</tr>
+					<tr>
+						<td>
+							<select style="width: 300px" id="country_ID" name="country" required="required">
+								<option value="Canada">Canada</option>
+								<option value="USA">USA</option>
+							</select>
+						</td>
+						<td style="width: 395px">
+							<input style="width: 300px" id="post_code_ID" name="psot_code" type="text"
+								required="required" />
+							<div id="postcode_error" class="error"></div>
+						</td>
+					</tr>
+					<tr>
+						<td><br>*City</td>
+						<td style="width: 395px"><br>*Province</td>
+					</tr>
+					<tr>
+						<td style="height: 29px">
+							<select style="width: 300px" id="city_ID" name="city" style="height: 22px">
+								<option value="Toronto">Toronto</option>
+								<option value="Toronto">New York</option>
+							</select>
+						</td>
+						<td style="height: 29px; width: 395px">
+							<select style="width: 300px" id="province_ID" name="province" style="height: 22px">
+								<option value="Ontario">Ontario</option>
+								<option value="New York">New York</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><br>*Email</td>
+						<td style="width: 395px"><br>*Phone Number</td>
+					</tr>
+					<tr>
+						<td style="height: 45px">
+							<input required="required" style="width: 300px" id="email_ID" name="email" type="text" />
+							<div id="email_error" class="error"></div>
+						</td>
+						<td style="height: 45px; width: 395px;">
+							<input required="required" style="width: 300px" id="phone_ID" name="phone_number" type="text" />
+							<div id="phone_error" class="error"></div>
+						</td>
+					</tr>
+					<tr>
+						<td><br>*Level of Previous Education</td>
+						<td style="width: 395px"><br>*Are you Currently Working?</td>
+					</tr>
+					<tr>
+						<td><input required="required" id="hight_school_ID" name="education_level" type="radio"
+								value="high_school" />High
+							School<br>
+							<input id="college_ID" name="education_level" type="radio" value="college" />College<br>
+							<input id="university_ID" name="education_level" type="radio"
+								value="university" />University<br>
+						</td>
+						<td style="width: 395px" valign="top">
+							<input required="required" id="yes_ID" name="current_working" type="radio"
+								value="yes" />Yes&nbsp;
+							<input id="no_ID" name="current_working" type="radio" value="no" />No
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td style="width: 395px">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="height: 23px"><br>*Preferred Campus</td>
+						<td style="height: 23px; width: 395px;"><br>*Program of Interest</td>
+					</tr>
+					<tr>
+						<td style="height: 30px">
+							<select style="width: 300px;" onchange="changeCollege(this.selectedIndex)" id="campus_ID"
+								name="preferred_campus">
+							</select>
+						</td>
+						<td style="height: 30px; width: 395px;">
+							<select style="width: 300px;" id="interest_program_ID" name="program_of_interest">
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td style="height: 23px"><br>How did you hear about us?</td>
+						<td style="height: 23px; width: 395px;"></td>
+					</tr>
+					<tr>
+						<td>
+							<select style="width: 300px" id="how_to_find_us_ID" name="how_to_find_us">
+								<option>Google search</option>
+								<option>Recommand by friends</option>
+								<option>Advertisment on webpages</option>
+								<option>Others</option>
+							</select>
+						</td>
+						<td style="width: 395px">&nbsp;</td>
+					</tr>
+					<tr>
+						<td><br>Password:</td>
+						<td style="width: 395px"><br>Comfirm Password:</td>
+					</tr>
+					<tr>
+						<td><input style="width: 300px" required="required" type="password" id="password_ID"
+								name="password">
+							<div id="password_error" class="error"></div>
+						</td>
+						<td style="width: 395px"><input style="width: 300px" required="required" type="password" id="comfirm_password_ID"
+								name="comfirm_password">
+							<div id="confirm_error" class="error"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="auto-style4"><br />
+						<br />
+						<input class="button" name="Submit1" type="submit" value="submit" id="submit_ID" /></td>
+						<td style="width: 395px" class="tableRightLine"><br />
+						<br />
+						&nbsp;&nbsp;&nbsp;
+						<input class="button" name="reset" type="reset" value="reset" /></td>
+					</tr>
+				</table><br>&nbsp;
+			</form>
+		</div>
+
+		<!--div4-->
+		<div id="copyright">
+			<img alt="" class="align-left" height="55" src="images/logo_centennial.png" style="float: left"
+				width="174" />Website:
+			<a href="http://www.centennialcollege.ca/continuing_education">
+				http://www.centennialcollege.ca/continuing_education</a><br />
+			E-mail: <a href="mailto:continuingeducation@centennialcollege.ca">
+				continuingeducation@centennialcollege.ca</a>&nbsp; <br />
+			<br />
+			<div style="background-color:#C5D83C;height:1px;border:none;"></div>
+			<div class="tableRightLine">
+				&copy;&nbsp;Copyright Xu-Tung Jin COM215 
+				Summer 2020&nbsp;
+			</div>
+		</div>
+		<script src="index_JS.js"></script>
+	</body>
+</html>
