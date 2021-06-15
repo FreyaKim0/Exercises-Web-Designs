@@ -1,4 +1,4 @@
-# Project-Web-Designs
+# Exercisest-Web-Designs
 **[Exercise 1]  Real Estate Website:**
 * Website layout design
 * HTML, CSS and embed code from third-party websites (Google map).
