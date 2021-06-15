@@ -22,4 +22,4 @@
 * HTML and CSS layout implement
 * Javasciript form constraints 
 
-![Real-Estate-Webpage](./screenShot%20(3).gif?raw=true)
+![Real-Estate-Webpage](./screenShot%20(2).gif?raw=true)
