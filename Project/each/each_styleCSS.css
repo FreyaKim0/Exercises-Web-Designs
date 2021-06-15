@@ -1,0 +1,61 @@
+﻿@import '../reset.css';
+#allPageCenter {
+	border-radius: 30px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+		overflow:hidden;
+
+}
+#topBanner {
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding: 15px;
+	font-size: 16px;
+}
+a:link{
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: none;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	cursor: pointer;
+}
+a:visited{
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: none;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color:  #0099FF;
+}
+#companyLogo {
+	background-color: #FFFFFF;
+}
+#footer {
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: lighter;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
