@@ -1,10 +1,11 @@
 # Project-Web-Designs
-**This is a webpage to demostrate my school learning result of HTML, CSS and some Javascript**<br><br>
-
-Highlights:
-* Real Estate Webpage Design and Code implement 
+**[Exercise 1]  Real Estate Webpage:
+* Website layout design
+* HTML and CSS
+* Javascript - picture slide effect
+* Javascript - form constraint
  
-![Real-Estate-Webpage](./screenShot%20(1).gif?raw=true)
+![Real-Estate-Webpage](./screenShots/screenShot%20(1).gif?raw=true)
 
 * Commercial layout design and code implement
 
